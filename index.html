@@ -9,21 +9,32 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city..." required />
-          <input type="submit " value="submit" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-form-input"
+          />
+          <input type="submit " value="submit" class="search-form-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Nairobi</h1>
-          <p>
-            Tuesday 10:16, light rain
-            <br />
-            Humidity: 86%, Wind: 1.05km/h
-          </p>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city">Nairobi</h1>
+            <p class="weather-app-details">
+              Tuesday 10:16, light rain
+              <br />
+              Humidity: <strong>86%</strong>, Wind: <strong>1.05km/h</strong>
+            </p>
+          </div>
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-icon">⛅</div>
+            <div class="weather-app-temperature">12</div>
+            <div class="weather-app-unit">°C</div>
+          </div>
         </div>
-        <div>⛅12°C</div>
       </main>
 
       <footer>
