@@ -31,10 +31,10 @@ header {
 }
 .search-form-button {
   background: #885df1;
-  padding: 15px 10px;
+  padding: 15px 20px;
   border: none;
   font-size: 16px;
-  margin-left: 10px;
+  margin-left: 5px;
   border-radius: 6px;
   color: #f9f7fe;
 }
